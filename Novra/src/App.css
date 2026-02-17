@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: poppins;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.header {
+    color: #000;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+
+/* LOGO */
+.logo h2 {
+    font-family: poppins;
+    font-size: 2rem;
+}
+
+/* NAVBAR */
+.navbar {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navlinks a {
+    text-decoration: none;
+    padding-bottom: 4px;
+    color: #000;
+}
+
+.navlinks .active {
+    border-bottom: 2px solid #000;
+    border-radius: 2px;
+}
+
+.navlinks a:hover {
+    border-bottom: 2px solid #000;
+    border-radius: 2x;
+    opacity: 0.7;
+}
+
+.cta button {
+    background: linear-gradient(127deg, yellow, blue);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 25px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta button:hover {
+    background: #d8d8d8;
+    color: #000;
+}
+
+.hero {
+    width: 100%;
+    background: url("img/spacejoy-9M66C_w_ToM-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container-hero {
+    min-width: 100%;
+    min-height: 90vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.hero h1 {
+    font-family: poppins;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero .h2 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    margin-bottom: 6px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.hero .btn1 {
+    background: linear-gradient(127deg, yellow, blue);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 25px;
+    font-family: poppins;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* PRODUCTS SECTION */
+
+.Section-work {
+    min-width: 100%;
+    min-height: 50vh;
+    background: #fafafa;
+    padding: 50px 10px;
+    /* padding: 40px 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    gap: 25px;
+    border: 1px solid #f3f3f3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.hiddentxt {
+    color: rgb(248, 236, 128);
+}
+
+.container .heading {
+    font-size: 1.7rem;
+}
+
+.container p {
+    width: 100%;
+}
+
+.product-cta {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(127deg, yellow, blue);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 25px;
+    font-family: poppins;
+    cursor: pointer;
+    width: 40%;
+}
+
+.chairs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 10px 0 0;
+    gap: 20px;
+}
+
+
+.chairs .chair {
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+
+.chair img {
+    width: 250px;
+    height: 220px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.chair h2 {
+    font-family: poppins;
+    font-size: 1.1rem;
+}
+
+.chair .desc {
+    font-family: poppins;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.chair .price {
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.ImageSlider-section {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.Image-container {
+    display: flex;
+    width: max-content;
+    gap: 20px;
+    animation: slideLeft 30s linear infinite;
+}
+
+.Image-container img {
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.Image-container img:hover {
+    transform: scale(1.03);
+
+}
+
+.ImageSlider-section:hover .Image-container {
+    animation-play-state: paused;
+}
+
+@keyframes Fadein {
+    from {
+        top: 6px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.Section-about {
+    min-width: 100%;
+    min-height: 80vh;
+    background: #fff;
+    padding: 50px 10px;
+}
+
+.Section-about .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-content {
+    flex: 1;
+    min-width: 0;
+    column-count: 3;
+
+    column-gap: 10px;
+    padding: 0 10px;
+}
+
+.image-content img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+    display: block;
+}
+
+
+.h1text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.h1text h1 {
+    text-transform: uppercase;
+}
+
+.h1text p {
+    color: #555;
+
+}
+
+/* Section.Jsx */
+div .sections {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    color: #fff;
+}
+
+.sections .section1 {
+    background-image: url(img/Bathroomsink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 0 50px;
+    color: #333;
+}
+
+.sections .section2 {
+    background-image: url(img/shower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px 50px;
+    color: #333;
+}
+
+.btn3 {
+    margin-top: 10px;
+    width: 20%;
+    background: linear-gradient(127deg, yellow, blue);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 23px;
+    font-family: poppins;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
