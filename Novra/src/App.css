@@ -345,7 +345,7 @@ div .sections {
 }
 
 .sections .section1 {
-    background-image: url(img/Bathroomsink.jpg);
+    background-image: url(img/Shower.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -353,11 +353,11 @@ div .sections {
     align-items: left;
     justify-content: center;
     padding: 0 50px;
-    color: #333;
+    color: #000;
 }
 
 .sections .section2 {
-    background-image: url(img/shower.jpg);
+    background-image: url(img/Bathroom.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
