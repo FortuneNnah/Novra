@@ -14,7 +14,7 @@ const Section = () => {
         </p>
         <Button />
       </div>
-
+X
       <div className="section2">
         <h1>Refined By Design</h1>
         <p>
