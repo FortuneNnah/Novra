@@ -1,32 +1,37 @@
 import React from "react";
 import Button from "./Button";
 
-const Section = () => {
+const Section = (props) => {
+  const sections = props.section || Section.defaultProps.sections;
   return (
-    <div className="sections">
-      <div className="section1">
-        <h1>Refined By Design</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-          doloribus deleniti pariatur minima, unde delectus soluta ipsam
-          architecto facere odio! Aliquam vitae omnis a minus debitis
-          repellendus pariatur odio perferendis?
-        </p>
-        <Button />
-      </div>
-X
-      <div className="section2">
-        <h1>Refined By Design</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-          doloribus deleniti pariatur minima, unde delectus soluta ipsam
-          architecto facere odio! Aliquam vitae omnis a minus debitis
-          repellendus pariatur odio perferendis?
-        </p>
-        <Button />
-      </div>
-    </div>
+    <section className="sections" aria-label="featured design">
+      {sections.map((Section, index) => (
+        <div className={`section section${index + 1}`} key={index}>
+          <h2>{section.title}</h2>
+          <p>{section.description}</p>
+        </div>
+      ))}
+    </section>
   );
+};
+
+Section.defaultProps.section = {
+  section: [
+    {
+      title: "Timeless Elegance",
+      description:
+        "Discover interiors that blend classic sophistication with modern comfort. Our curated spaces are designed to inspire and elevate your everyday living.",
+      buttonText: "Explore Collection",
+      background: "img/About1.jpg",
+    },
+    {
+      title: "Inspired Living",
+      description:
+        "Experience the art of refined design. From bespoke furnishings to thoughtful accents, we create environments that reflect your unique style.",
+      buttonText: "View Projects",
+      background: "img/About2.jpg",
+    },
+  ],
 };
 
 export default Section;
