@@ -2,21 +2,23 @@ import React from "react";
 import Button from "./Button";
 
 const Section = (props) => {
-  const sections = props.section || Section.defaultProps.sections;
+  // Use sections from props or defaultProps
+  const sections = props.sections || Section.defaultProps.sections;
   return (
     <section className="sections" aria-label="featured design">
-      {sections.map((Section, index) => (
+      {sections.map((section, index) => (
         <div className={`section section${index + 1}`} key={index}>
           <h2>{section.title}</h2>
           <p>{section.description}</p>
+          {section.buttonText && <Button>{section.buttonText}</Button>}
         </div>
       ))}
     </section>
   );
 };
 
-Section.defaultProps.section = {
-  section: [
+Section.defaultProps = {
+  sections: [
     {
       title: "Timeless Elegance",
       description:

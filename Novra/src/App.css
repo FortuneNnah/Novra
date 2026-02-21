@@ -342,29 +342,34 @@ div .sections {
     display: flex;
     overflow: hidden;
     color: #fff;
+    line-height: 1.63;
+    display: flex;
+    align-content: center;
 }
 
 .sections .section1 {
-    background-image: url(img/Shower.jpg);
+    background-image: url(img/About4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding: 0 50px;
+    padding: 20px 50px;
     color: #333;
 }
 
 .sections .section2 {
-    background-image: url(img/Bathroom.jpg);
+    /* padding-top: 40px; */
+    background-image: url(img/Decor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: left;
+    justify-content: center;
     padding: 20px 50px;
-    color: #333;
+    color: #fff;
 }
 
 .btn3 {
