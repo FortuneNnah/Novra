@@ -7,7 +7,7 @@ const Section = (props) => {
   return (
     <section className="sections" aria-label="featured design">
       {sections.map((section, index) => (
-        <div className={`section section${index + 1}`} key={index}>
+        <div className={`section section${index + 1 }`} key={index}>
           <h2>{section.title}</h2>
           <p>{section.description}</p>
           {section.buttonText && <Button>{section.buttonText}</Button>}
