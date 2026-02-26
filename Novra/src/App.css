@@ -345,7 +345,6 @@ div .sections {
     line-height: 1.63;
     font-size: 17px;
     border: 10px solid #333;
-
 }
 
 .sections h2{
@@ -400,6 +399,7 @@ div .sections {
   padding: 40px 24px;
   max-width: 700px;
   margin: 40px auto;
+  display: flex;
 }
 .feedback h2 {
   font-family: poppins;
