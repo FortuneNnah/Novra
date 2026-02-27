@@ -16,15 +16,17 @@ const feedbacks = [
   {
     name: "Ava Williams",
     message:
-      "Elegant designs and top-notch craftsmanship. I get compliments from every guest!",
+      "Absolutely love the quality and style! Novra transformed my living space into something truly special.",
     star: "★★★★★",
   },
 ];
 
 const Feedback = () => {
   return (
-    <>
-      <h2>What Our Users Say</h2>
+    <div className="feedback-section">
+      <div className="fh2">
+          <h2 className="feedback-title">What Our Customers Say</h2>
+      </div>
       <div className="feedback">
         {feedbacks.map((item, idx) => (
           <div className="feedback-item" key={idx}>
@@ -34,7 +36,7 @@ const Feedback = () => {
           </div>
         ))}
       </div>
-    </>
+    </div >
   );
 };
 
