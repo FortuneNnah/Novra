@@ -249,7 +249,7 @@ body {
 
 .Image-container img {
     width: 220px;
-    height: 150px;
+    height: 100px;
     object-fit: cover;
     border-radius: 10px;
     flex-shrink: 0;
