@@ -6,7 +6,7 @@ import About from "./Components/About";
 import Section from "./Components/Section";
 import Herosection from "./Components/hero-section";
 import Feedback from "./Components/Feedback";
-
+import newdesign from "./Components/newdesign";
 const App = () => {
   return (
     <>
@@ -16,6 +16,7 @@ const App = () => {
       <About />
       <Section />
       <Feedback />
+      <newdesign />
     </>
   );
 };
