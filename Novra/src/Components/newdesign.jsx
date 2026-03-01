@@ -1,14 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const newdesign = () => {
+const Newdesign = () => {
   return (
     <div>
-        <div className="img-container">
-            <img src="img/couch3.jpg" alt="" />
-        </div>
+      <div className="image-text">
+        <h3>
+          Crafted for contemporary family,Our designers thoughtfully considered
+          every detail.
+        </h3>
+      </div>
+      <div className="img-container">
+        <img src="img/couch3.jpg" alt="" />
+      </div>
     </div>
-    
-  )
-}
+  );
+};
 
-export default newdesign
+export default Newdesign;
