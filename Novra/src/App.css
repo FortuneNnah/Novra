@@ -461,25 +461,41 @@ div .sections {
 /* .image-container{}1111 */
 
 .new-design-section {
-    width: 100%;
-    height: 90vh;
-    padding: 20px 50px;
-    margin: 30px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 30px;
-    text-align: center;
+  width: 100%;
+  min-height: 90vh;
+  padding: 20px 50px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  text-align: center;
 }
 
-.new-design-section h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.7rem;
+.new-design-section h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  color: #333;
 }
 
-.img-container img{
-    width: 600px;
-    height: auto;
-    border-radius: 15px;
-    object-fit: cover;
+.new-design-section p {
+  max-width: 500px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.image-text {
+  flex: 1;
+}
+
+.img-container {
+  flex: 1;
+}
+
+.img-container img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
 }

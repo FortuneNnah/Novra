@@ -1,6 +1,7 @@
 import React from "react";
 // import the image from the project root so that Vite can bundle it correctly
 import couch3 from "../../img/couch3.jpg";
+import "./newdesign.css";
 
 const Newdesign = () => {
   return (
