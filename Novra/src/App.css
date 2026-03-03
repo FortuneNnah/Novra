@@ -130,8 +130,8 @@ body {
 }
 
 .hero .btn1 {
-    background: linear-gradient(127deg, yellow, blue);
-    color: #fff;
+    background: #6B4F3A;
+    color: #F5F3EF;
     border: none;
     border-radius: 4px;
     font-size: 12px;
@@ -147,9 +147,8 @@ body {
 .Section-work {
     min-width: 100%;
     min-height: 50vh;
-    background: #fafafa;
+    background: #f1f1f1;
     padding: 50px 10px;
-    /* padding: 40px 20px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -382,8 +381,8 @@ div .sections {
 .btn3 {
     margin-top: 10px;
     width: 20%;
-    background: linear-gradient(127deg, yellow, blue);
-    color: #fff;
+    background: #6B4F3A;
+    color: #F5F3EF;
     border: none;
     border-radius: 4px;
     font-size: 12px;
@@ -466,7 +465,7 @@ div .sections {
   width: 100%;
   min-height: auto;
   padding: 30px 50px;
-  margin: 30px auto;
+  /* margin: 30px auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -477,8 +476,9 @@ div .sections {
     max-width: 700px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
+    text-align: left; */
 }
 
 .new-design-section h1 {
@@ -493,9 +493,9 @@ div .sections {
 }
 
 .img-container img {
-  width: 800px;
+  width: 700px;
   height: 500px;
-  border-radius: 15px;
+  border-radius: 20px;
   object-fit: cover;
 }
 

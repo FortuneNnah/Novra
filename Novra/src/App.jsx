@@ -14,9 +14,9 @@ const App = () => {
       <ImageSlider />
       <Work />
       <About />
+      <Newdesign />
       <Section />
       <Feedback />
-      <Newdesign />
     </>
   );
 };
