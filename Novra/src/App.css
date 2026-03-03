@@ -13,7 +13,6 @@ html {
 body {
     font-family: poppins;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -24,6 +23,8 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #f1f1f1;
+    /* top: 0;
+    position: sticky; */
 }
 
 /* LOGO */
@@ -458,44 +459,50 @@ div .sections {
     color: #888;
     font-style: italic;
 }
-/* .image-container{}1111 */
+/* .new-design-section */
 
 .new-design-section {
+  background-color: #f1f1f1;
   width: 100%;
-  min-height: 90vh;
-  padding: 20px 50px;
+  min-height: auto;
+  padding: 30px 50px;
   margin: 30px auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 30px;
-  text-align: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.new-design-section h3 {
+.image-text{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-design-section h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.7rem;
-  color: #333;
+  font-size: 2.2rem;
+  color: #000;
 }
 
 .new-design-section p {
-  max-width: 500px;
   color: #555;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
-.image-text {
+.img-container img {
+  width: 800px;
+  height: 500px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* .image-text {
   flex: 1;
 }
 
 .img-container {
   flex: 1;
-}
-
-.img-container img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 15px;
-  object-fit: cover;
-}
+} */

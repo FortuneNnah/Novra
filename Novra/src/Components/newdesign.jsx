@@ -1,16 +1,13 @@
 import React from "react";
-// import the image from the project root so that Vite can bundle it correctly
 import couch3 from "../../img/couch3.jpg";
-import "./newdesign.css";
 
 const Newdesign = () => {
   return (
     <div className="new-design-section">
       <div className="image-text">
-        <h3>
-          Crafted for the contemporary family—our designers thoughtfully
-          considered every detail.
-        </h3>
+        <h1>
+          Crafted For The Contemporary Family
+        </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
           dolore, alias laborum veniam eaque nisi aliquam. Placeat dolores,
@@ -19,7 +16,6 @@ const Newdesign = () => {
         </p>
       </div>
       <div className="img-container">
-        {/* use the imported image */}
         <img src={couch3} alt="modern couch" />
       </div>
     </div>
