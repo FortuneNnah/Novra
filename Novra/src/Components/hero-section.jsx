@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 export const Header = () => {
   return (
@@ -25,9 +26,7 @@ export const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="cta">
-        <button>Let's Talk</button>
-      </div>
+        <Button />
     </div>
   );
 };

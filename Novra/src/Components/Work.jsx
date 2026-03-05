@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Work = () => {
   return (
@@ -14,9 +15,7 @@ const Work = () => {
           you’re furnishing a cozy apartment or a spacious home, our collections
           are made to adapt to your lifestyle and elevate your environment.
         </p>
-        <a href="#hero">
-          <button className="product-cta">View All {">"} </button>
-        </a>
+    <Button />
       </div>
       <div className="chairs">
         <div className="chair">
