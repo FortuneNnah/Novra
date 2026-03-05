@@ -345,11 +345,9 @@ div .sections {
     color: #fff;
     line-height: 1.63;
     font-size: 17px;
-    /* border: 10px solid #333; */
 }
 
 .sections h2 {
-    /* font-family: Cormorant garamond; */
     font-size: 40px;
 }
 
@@ -359,20 +357,19 @@ div .sections {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     justify-content: center;
     padding: 20px 50px;
     color: #333;
 }
 
 .sections .section2 {
-    /* padding-top: 40px; */
     background-image: url(img/Decor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     justify-content: center;
     padding: 20px 50px;
     color: #fff;
