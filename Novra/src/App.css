@@ -161,6 +161,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: flex-start;
     gap: 10px;
     padding: 30px;
 }
@@ -291,7 +292,7 @@ body {
     min-width: 100%;
     min-height: 80vh;
     background: #fff;
-    padding: 50px 10px;
+    padding: 50px 20px;
 }
 
 .Section-about .container {
@@ -306,7 +307,6 @@ body {
     flex: 1;
     min-width: 0;
     column-count: 3;
-
     column-gap: 10px;
     padding: 0 10px;
 }
@@ -324,6 +324,7 @@ body {
 .h1text {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     flex: 1;
 }
 
@@ -384,7 +385,7 @@ div .sections {
     border-radius: 4px;
     font-size: 12px;
     font-weight: 500;
-    padding: 8px;
+    padding: 8px 23px;
     font-family: poppins;
     cursor: pointer;
     transition: 0.3s;
@@ -473,6 +474,7 @@ div .sections {
     max-width: 700px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     /* align-items: center;
     justify-content: center;
     text-align: left; */
