@@ -1,0 +1,198 @@
+/* ============================================
+   GLOBAL BASE STYLES & RESPONSIVE RESET
+   ============================================ */
+
+/* Root Element - Mobile First Font Size */
+:root {
+    --color-primary: #6B4F3A;
+    --color-accent: rgb(248, 236, 128);
+    --color-text: #333;
+    --color-text-light: #666;
+    --color-bg: #f1f1f1;
+    --color-white: #fff;
+    --color-shadow: rgba(0, 0, 0, 0.1);
+    
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    
+    --radius-sm: 4px;
+    --radius-md: 0.75rem;
+    --radius-lg: 1.25rem;
+    
+    --transition: all 0.3s ease;
+}
+
+/* Responsive Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading Responsive Sizes */
+h1 {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+}
+
+h2 {
+    font-size: clamp(1.3rem, 4vw, 2.5rem);
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+}
+
+h3 {
+    font-size: clamp(1.1rem, 3vw, 1.8rem);
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+h4, h5, h6 {
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+/* Paragraph Responsive */
+p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Links */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Forms - Responsive */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Code */
+code, pre {
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+    background-color: #f5f5f5;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-sm);
+}
+
+pre {
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+/* Blockquote */
+blockquote {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-left: 4px solid var(--color-primary);
+    background-color: #f9f9f9;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 2rem 0;
+}
+
+/* Tables - Responsive */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Media - Responsive */
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure {
+    margin: 1rem 0;
+}
+
+figcaption {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    margin-top: 0.5rem;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        color: #000;
+        background: #fff;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+/* Tablet Adjustments */
+@media (min-width: 768px) {
+    :root {
+        --spacing-lg: 2.5rem;
+        --spacing-xl: 4rem;
+    }
+
+    body {
+        font-size: 1.05rem;
+    }
+}
+
+/* Desktop Adjustments */
+@media (min-width: 1024px) {
+    :root {
+        --spacing-xl: 5rem;
+    }
+}

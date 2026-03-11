@@ -3,7 +3,7 @@ import Button from './Button';
 
 const About = () => {
   return (
-    <section className="Section-about">
+    <section id="About" className="Section-about">
       <div className="container">
         <div className="image-content">
           <img loading="lazy" src="img/About1.jpg" alt="" />
