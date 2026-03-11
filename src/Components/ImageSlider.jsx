@@ -1,26 +1,36 @@
 import React from "react";
+// import couch3 from '../img/couch3.jpg';
+import decor from '../img/Decor.jpg';
+import couch2 from '../img/couch2.jpg';
+import bathroom from '../img/Bathroom.jpg';
+import curtains from '../img/curtains.jpg';
+
+// keep other imports for possible future use but commented
+// import About2 from '../img/About2.jpg';
+// import About3 from '../img/About3.jpg';
+// import chair2 from '../img/chair2.jpg';
 
 const ImageSlider = () => {
   return (
     <section className="ImageSlider-section">
       <div className="Image-container">
-        <img src="img/couch3.jpg" alt="" />
-        <img src="img/Decor.jpg" alt="" />
-        <img src="img/couch2.jpg" alt="" />
-        <img src="img/Bathroom.jpg" alt="" />
-        <img src="img/curtains.jpg" alt="" />
-
-        {/* Duplicate */}
-        <img src="img/couch2.jpg" alt="" />
-        <img src="img/Decor.jpg" alt="" />
-        <img src="img/couch3.jpg" alt="" />
-        <img src="img/Bathroom.jpg" alt="" />
-        <img src="img/curtains.jpg" alt="" />
-
-        <img src="img/couch3.jpg" alt="" />
-        <img src="img/Decor.jpg" alt="" />
-        <img src="img/couch2.jpg" alt="" />
-
+        {[
+          couch3,
+          decor,
+          couch2,
+          bathroom,
+          curtains,
+          couch2,
+          decor,
+          couch3,
+          bathroom,
+          curtains,
+          couch3,
+          decor,
+          couch2,
+        ].map((src, idx) => (
+          <img key={idx} src={src} alt="" />
+        ))}
       </div>
     </section>
   );
