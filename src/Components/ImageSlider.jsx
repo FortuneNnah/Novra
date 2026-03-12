@@ -1,14 +1,14 @@
 import React from "react";
-// import couch3 from '../img/couch3.jpg';
-import decor from '../img/Decor.jpg';
-import couch2 from '../img/couch2.jpg';
-import bathroom from '../img/Bathroom.jpg';
-import curtains from '../img/curtains.jpg';
+import couch3 from '../../img/couch3.jpg';
+import decor from '../../img/Decor.jpg';
+import couch2 from '../../img/couch2.jpg';
+import bathroom from '../../img/Bathroom.jpg';
+import curtains from '../../img/curtains.jpg';
 
 // keep other imports for possible future use but commented
-// import About2 from '../img/About2.jpg';
-// import About3 from '../img/About3.jpg';
-// import chair2 from '../img/chair2.jpg';
+// import About2 from '../../img/About2.jpg';
+// import About3 from '../../img/About3.jpg';
+// import chair2 from '../../img/chair2.jpg';
 
 const ImageSlider = () => {
   return (
