@@ -5,11 +5,6 @@ import couch2 from '../../img/couch2.jpg';
 import bathroom from '../../img/Bathroom.jpg';
 import curtains from '../../img/curtains.jpg';
 
-// keep other imports for possible future use but commented
-// import About2 from '../../img/About2.jpg';
-// import About3 from '../../img/About3.jpg';
-// import chair2 from '../../img/chair2.jpg';
-
 const ImageSlider = () => {
   return (
     <section className="ImageSlider-section">
@@ -17,8 +12,7 @@ const ImageSlider = () => {
         {[
           couch3,
           decor,
-          couch2,
-          bathroom,
+          couch2, bathroom,
           curtains,
           couch2,
           decor,
