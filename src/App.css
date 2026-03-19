@@ -394,7 +394,6 @@ div .sections {
     width: 100%;
     height: auto;
     margin-top: 30px;
-    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;

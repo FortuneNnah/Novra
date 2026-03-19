@@ -1,5 +1,8 @@
 import React from "react";
 import Button from "./Button";
+import chair1 from "../assets/img/chair1.jpg";
+import chair2 from '../assets/img/chair2.jpg';
+import chair3 from '../assets/img/chair3.jpg';
 
 const Work = () => {
   return (
@@ -19,19 +22,19 @@ const Work = () => {
       </div>
       <div className="chairs">
         <div className="chair">
-          <img src="src/assets/img/chair1.jpg" alt="chair1" />
+          <img src= {chair3} alt="couch3" />
           <h2 className="h2">Wooden Chair</h2>
           <p className="desc">Timeless designs built to bring comfort and style into your home.</p>
           <p className="price">$120.00</p>
         </div>
         <div className="chair">
-          <img src="src/assets/img/chair2.jpg" alt="chair2" />
+          <img src={chair2} alt="chair2" />
           <h2 className="h2">LCW Chair</h2>
           <p className="desc">Modern furniture made with quality materials to elevate your space</p>
           <p className="price">$120.00</p>
         </div>
         <div className="chair">
-          <img src="src/assets/img/chair3.jpg" alt="chair3" />
+          <img src={chair1} alt="chair3" />
           <h2 className="h2">Wooden Padded Chair</h2>
           <p className="desc">Furniture designed to fit your lifestyle and last beyond trends.</p>
           <p className="price">$120.00</p>
