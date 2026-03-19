@@ -472,7 +472,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div style={S.bottom}>
         <div style={S.bottomInner}>
-          <p style={S.copy}>&copy; {new Date().getFullYear()} Lumière. All rights reserved.</p>
+          <p style={S.copy}>&copy; {new Date().getFullYear()} Novra. All rights reserved.</p>
 
           <div style={S.legalLinks}>
             {LEGAL.map((item, i) => (
