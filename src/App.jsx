@@ -7,6 +7,8 @@ import Section from "./Components/Section";
 import Herosection from "./Components/hero-section";
 import Feedback from "./Components/Feedback";
 import Newdesign from "./Components/newdesign";
+import Footer from "./Components/Footer";
+
 const App = () => {
   return (
     <>
@@ -17,6 +19,7 @@ const App = () => {
       <Newdesign />
       <Section />
       <Feedback />
+      <Footer />
     </>
   );
 };
