@@ -36,6 +36,7 @@ const Feedback = () => {
           </div>
         ))}
       </div>
+      
     </div >
   );
 };

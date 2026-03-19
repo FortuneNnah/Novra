@@ -94,7 +94,7 @@ body {
 
 .hero {
     width: 100%;
-    background: url("/img/spacejoy-9M66C_w_ToM-unsplash.jpg");
+    background: url("assets/img/spacejoy-9M66C_w_ToM-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -181,7 +181,6 @@ body {
 .product-cta {
     margin-top: 20px;
     margin-bottom: 40px;
-    background: linear-gradient(127deg, yellow, blue);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -353,7 +352,7 @@ div .sections {
 }
 
 .sections .section1 {
-    background-image: url(img/About4.jpg);
+    background-image: url(assets/img/About4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -365,7 +364,7 @@ div .sections {
 }
 
 .sections .section2 {
-    background-image: url(img/Decor.jpg);
+    background-image: url(assets/img/Decor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -394,7 +393,8 @@ div .sections {
 .feedback-section {
     width: 100%;
     height: auto;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;

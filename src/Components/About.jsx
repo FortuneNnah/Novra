@@ -6,13 +6,13 @@ const About = () => {
     <section id="About" className="Section-about">
       <div className="container">
         <div className="image-content">
-          <img loading="lazy" src="img/About1.jpg" alt="" />
-          <img loading="lazy" src="img/About2.jpg" alt="" />
-          <img loading="lazy" src="img/chair1.jpg" alt="" /> 
-          <img loading="lazy" src="img/couch.jpg" alt="" /> 
-          <img loading="lazy" src="img/About3.jpg" alt="" /> 
-          <img loading="lazy" src="img/About3.jpg" alt="" /> 
-          <img loading="lazy" src="img/About4.jpg" alt="" />
+          <img loading="lazy" src="src/assets/img/About1.jpg" alt="" />
+          <img loading="lazy" src="src/assets/img/About2.jpg" alt="" />
+          <img loading="lazy" src="src/assets/img/chair1.jpg" alt="" /> 
+          <img loading="lazy" src="src/assets/img/couch.jpg" alt="" /> 
+          <img loading="lazy" src="src/assets/img/About3.jpg" alt="" /> 
+          <img loading="lazy" src="src/assets/img/About3.jpg" alt="" /> 
+          <img loading="lazy" src="src/assets/img/About4.jpg" alt="" />
         </div>
         <div className="h1text">
           <h1>we provide you the best experience </h1>

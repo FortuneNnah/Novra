@@ -1,9 +1,9 @@
 import React from "react";
-import couch3 from '../../img/couch3.jpg';
-import decor from '../../img/Decor.jpg';
-import couch2 from '../../img/couch2.jpg';
-import bathroom from '../../img/Bathroom.jpg';
-import curtains from '../../img/curtains.jpg';
+import couch3 from "../assets/img/couch3.jpg";
+import decor from '../assets/img/Decor.jpg';
+import couch2 from '../assets/img/couch2.jpg';
+import bathroom from '../assets/img/Bathroom.jpg';
+import curtains from '../assets/img/curtains.jpg';
 
 const ImageSlider = () => {
   return (

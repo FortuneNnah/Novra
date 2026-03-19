@@ -1,5 +1,5 @@
 import React from "react";
-import couch3 from "../../img/couch3.jpg";
+import couch3 from "../assets/img/couch3.jpg";
 import Button from "./Button";
 
 const Newdesign = () => {
