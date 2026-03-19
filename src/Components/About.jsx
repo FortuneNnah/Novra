@@ -1,18 +1,23 @@
 import React from "react";
-import Button from './Button';
+import Button from "./Button";
+import About1 from "../assets/img/About1.jpg";
+import About2 from "../assets/img/About2.jpg";
+import chair1 from "../assets/img/chair1.jpg";
+import chair2 from "../assets/img/chair2.jpg";
+import couch3 from "../assets/img/couch3.jpg";
+import About4 from "../assets/img/About4.jpg";
 
 const About = () => {
   return (
     <section id="About" className="Section-about">
       <div className="container">
         <div className="image-content">
-          <img loading="lazy" src="src/assets/img/About1.jpg" alt="" />
-          <img loading="lazy" src="src/assets/img/About2.jpg" alt="" />
-          <img loading="lazy" src="src/assets/img/chair1.jpg" alt="" /> 
-          <img loading="lazy" src="src/assets/img/couch.jpg" alt="" /> 
-          <img loading="lazy" src="src/assets/img/About3.jpg" alt="" /> 
-          <img loading="lazy" src="src/assets/img/About3.jpg" alt="" /> 
-          <img loading="lazy" src="src/assets/img/About4.jpg" alt="" />
+          <img loading="lazy" src={About2} alt="" />
+          <img loading="lazy" src={couch3} alt="" />
+          <img loading="lazy" src={chair1} alt="" />
+          <img loading="lazy" src={chair2} alt="" />
+          <img loading="lazy" src={About4} alt="" />
+          <img loading="lazy" src={About1} alt="" />
         </div>
         <div className="h1text">
           <h1>we provide you the best experience </h1>
@@ -30,6 +35,5 @@ const About = () => {
     </section>
   );
 };
-
 
 export default About;
