@@ -497,39 +497,34 @@ div .sections {
 
 @media (max-width: 1024px) {
 
-    /* Header */
     .header {
         padding: 18px 30px;
     }
 
-    /* Hero */
     .container-hero {
         padding: 0 30px;
+        height: 100vh; 
     }
 
     .hero h1 {
         font-size: 2.4rem;
     }
 
-    .hero .h2 {
-        font-size: 2.1rem;
-    }
-
     /* Products */
     .Section-work {
         flex-direction: column;
         align-items: flex-start;
-        padding: 40px 20px;
+        padding: 18px 30px;
     }
 
     .chairs {
         flex-wrap: wrap;
-        justify-content: center;
+        align-items: flex-start;
         margin: 0;
     }
 
     .chair img {
-        width: 200px;
+        width: 160px;
         height: 180px;
     }
 
@@ -934,26 +929,22 @@ div .sections {
 @media (max-width: 360px) {
 
     /* Header */
+
     .logo h2 {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+        font-weight: 500;
     }
 
     /* Hero */
     .hero h1 {
-        font-size: 1.35rem;
+        font-size: 1.7rem;
+        font-weight: 700;
     }
 
-    .hero .h2 {
-        font-size: 1.2rem;
-    }
-
-    /* Products */
-    .container .heading {
-        font-size: 1.1rem;
-    }
-
-    .chair img {
-        height: 170px;
+    .container-hero{
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
     }
 
     /* Image slider */
@@ -962,27 +953,45 @@ div .sections {
         height: 60px;
     }
 
+    /* Products */
+    .container .heading {
+        font-size: 1.7rem;
+    }
+
+    .chairs {
+        padding: 9px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .chair img {
+        max-width: 280px;
+        height: 225px;
+    }
+
     /* About */
     .image-content {
-        column-count: 1;
-    }
-
-    /* Sections */
-    .sections h2 {
-        font-size: 1.3rem;
-    }
-
-    /* Feedback */
-    .fh2 h2 {
-        font-size: 1.2rem;
+        column-count: 2;
     }
 
     /* New design */
     .new-design-section h1 {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
 
     .img-container img {
         height: 180px;
     }
+
+    /* Sections */
+    .sections h2 {
+        font-size: 1.7rem;
+    }
+
+        /* Feedback */
+    .fh2 h2 {
+        font-size: 1.2rem;
+    }
+
 }
