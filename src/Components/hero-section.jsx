@@ -53,10 +53,10 @@ export const Hero = () => {
 
 const Herosection = () => {
   return (
-    <div id="hero-section">
+    <>
       <Header />
       <Hero />
-    </div>
+    </>
   );
 };
 

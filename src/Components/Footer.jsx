@@ -81,7 +81,7 @@ const PAYMENTS = ["Visa", "Mastercard", "PayPal", "Apple Pay"];
 
 const S = {
   footer: {
-    backgroundColor: "#1a1a1a",
+    backgroundColor: "#2d2b2b",
     color: "#ccc",
     fontFamily: "Poppins, sans-serif",
     position: "relative",
@@ -113,7 +113,7 @@ const S = {
   },
   logo: {
     fontFamily: "Poppins, sans-serif",
-    fontWeight: 300,
+    fontWeight: 500,
     fontSize: "clamp(1.4rem, 3vw, 2rem)",
     color: "#fff",
     letterSpacing: "2px",
