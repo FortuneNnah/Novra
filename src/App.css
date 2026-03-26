@@ -494,7 +494,7 @@ div .sections {
     object-fit: cover;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
 
     .header {
         padding: 18px 30px;
@@ -516,7 +516,12 @@ div .sections {
         padding: 18px 30px;
     }
 
+    .Section-work .container{
+        flex-direction: row;
+    }
+
     .chairs {
+        display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
         margin: 0;
@@ -921,14 +926,7 @@ div .sections {
     }
 }
 
-
-/* --------------------------------
-   360px — Small phone
--------------------------------- */
-@media (max-width: 360px) {
-
-    /* Header */
-
+@media  (min-width: 360px) and (max-width: 479px) {
     .logo h2 {
         font-size: 1.7rem;
         font-weight: 500;
