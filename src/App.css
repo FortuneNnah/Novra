@@ -144,7 +144,7 @@ body {
 
 .Section-work {
     min-width: 100%;
-    min-height: 50vh;
+    min-height: auto;
     background: #f1f1f1;
     padding: 50px 10px;
     display: flex;
@@ -455,14 +455,11 @@ div .sections {
     font-style: italic;
 }
 
-/* .new-design-section */
-
 .new-design-section {
     background-color: #f1f1f1;
     width: 100%;
     min-height: auto;
     padding: 30px 50px;
-    /* margin: 30px auto; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -488,9 +485,9 @@ div .sections {
 }
 
 .img-container img {
-    width: 700px;
-    height: 500px;
-    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    border-radius: 9px;
     object-fit: cover;
 }
 
@@ -522,11 +519,15 @@ div .sections {
 
     .chairs {
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         align-items: flex-start;
         margin: 0;
     }
 
+    .chair{
+        align-items: center;
+        justify-content: center;
+    }
     .chair img {
         width: 160px;
         height: 180px;
@@ -545,6 +546,7 @@ div .sections {
         column-count: 3;
         width: 100%;
         padding: 0;
+        margin-bottom: 20px;
     }
 
     .h1text {
@@ -790,10 +792,6 @@ div .sections {
     }
 }
 
-
-/* --------------------------------
-   480px — Large phone
--------------------------------- */
 @media (max-width: 480px) {
 
     /* Header */
